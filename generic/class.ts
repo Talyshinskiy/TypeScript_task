@@ -16,7 +16,7 @@ col1.add(7)
 const col2 = new Collection<string>(["1", "2", "3"])
 col2.add("4")
 
-class List <R>extends Collection<string>{
+class List <R> extends Collection<string>{
   constructor(public type: R) {
     super(["a"])
   }
